@@ -35,6 +35,7 @@ version = "1.0"
 
 [dependencies.chrono]
 version = "0.4"
+default-features = false
 
 [dependencies.hex]
 version = "0.4"
@@ -57,5 +58,7 @@ version = "0.16"
 version = "1.3"
 
 [dependencies.x509-certificate]
-version = "0.15.0"
+git = "https://github.com/syncom/x509-certificate-rs-clone"
+# 20221117
+rev = "01a10eb4e2a243bd9cf1b6459bb59445c3071081"
 features = ["test"]
