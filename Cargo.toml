@@ -11,9 +11,11 @@
 
 [package]
 edition = "2021"
-name = "cryptographic-message-syntax"
+name = "cms-rs"
 version = "0.18.1"
-authors = ["Gregory Szorc <gregory.szorc@gmail.com>"]
+authors = [
+    "Gregory Szorc <gregory.szorc@gmail.com>",
+    "Ning Shang <syncom.dev@gmail.com>",]
 description = "A pure Rust implementation of Crypographic Message Syntax (RFC 5652)"
 homepage = "https://github.com/indygreg/PyOxidizer"
 readme = "README.md"
