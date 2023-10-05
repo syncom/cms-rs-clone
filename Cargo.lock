@@ -1150,7 +1150,7 @@ dependencies = [
 [[package]]
 name = "x509-certificate"
 version = "0.15.0"
-source = "git+https://github.com/syncom/x509-certificate-rs-clone?rev=01a10eb4e2a243bd9cf1b6459bb59445c3071081#01a10eb4e2a243bd9cf1b6459bb59445c3071081"
+source = "git+https://github.com/syncom/x509-certificate-rs-clone?rev=772c334036c347d7154c3c48d05b63e0fbf32eb3#772c334036c347d7154c3c48d05b63e0fbf32eb3"
 dependencies = [
  "bcder",
  "bytes",
