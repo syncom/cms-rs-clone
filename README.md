@@ -1,20 +1,19 @@
-# cryptographic-message-syntax
+# cms-rs
 
-`cryptographic-message-syntax` is a pure Rust implementation of
-Cryptographic Message Syntax (CMS) as defined by RFC 5652. Also included
-is Time-Stamp Protocol (TSP) (RFC 3161) client support.
+[![sanity checks](https://github.com/syncom/cms-rs-clone/actions/workflows/sanity.yml/badge.svg)](https://github.com/syncom/cms-rs-clone/actions/workflows/sanity.yml)
 
-From a high level CMS defines a way to digitally sign and authenticate
-arbitrary content.
+At a high level CMS defines a way to digitally sign and authenticate arbitrary
+content.
 
-CMS is used to power the digital signatures embedded within Mach-O binaries
-on Apple platforms such as macOS and iOS. The primitives in this crate could
-be used to sign and authenticate Mach-O binaries. (See the sister
-`apple-codesign` crate in the Git repository for code that does just this.)
+`cms-rs` is a fork of `cryptographic-message-syntax`, a pure Rust implementation
+of Cryptographic Message Syntax (CMS) as defined by RFC 5652, which was first
+developed as part of the
+[PyOxidizer](https://github.com/indygreg/PyOxidizer.git) project.
 
-This crate is developed as part of the
-[PyOxidizer](https://github.com/indygreg/PyOxidizer.git) project and is
-developed in that repository. While this crate is developed as part of a
-larger product, it is authored such that it can be used standalone and
-modifications to supports its use outside of its original use case are
-very much welcome!
+Because the original `cryptographic-message-syntax` crate has been removed from
+later versions of the `PyOxidizer` project, and it's not obvious how the source
+code is being maintained, I "forked" the 0.18.0 version of it by importing the
+source directly from
+<https://crates.io/api/v1/crates/cryptographic-message-syntax/0.18.0/download>,
+and adding subsequent modifications on top of this base version, in this
+repository.
