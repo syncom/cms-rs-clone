@@ -64,3 +64,6 @@ git = "https://github.com/syncom/x509-certificate-rs-clone"
 # 20231004
 rev = "772c334036c347d7154c3c48d05b63e0fbf32eb3"
 features = ["test"]
+
+[dependencies.rustls]
+version = "0.21.11"
