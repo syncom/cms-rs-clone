@@ -12,7 +12,7 @@
 [package]
 edition = "2021"
 name = "cms-rs"
-version = "0.18.2"
+version = "0.18.3"
 authors = [
     "Gregory Szorc <gregory.szorc@gmail.com>",
     "Ning Shang <syncom.dev@gmail.com>",]
