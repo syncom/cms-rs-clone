@@ -67,3 +67,9 @@ features = ["test"]
 
 [dependencies.rustls]
 version = "0.21.11"
+
+[dependencies.url]
+version = "2.5.4"
+
+[dependencies.idna]
+version = "1.0.0"
