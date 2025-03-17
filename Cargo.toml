@@ -46,7 +46,7 @@ version = "0.4"
 version = "1.0"
 
 [dependencies.reqwest]
-version = "0.11.20"
+version = "0.12.14"
 features = [
     "blocking",
     "rustls-tls",
@@ -66,7 +66,7 @@ rev = "4a0045af48d83ff76bedb2a736f9d26886bcbd62"
 features = ["test"]
 
 [dependencies.rustls]
-version = "0.21.11"
+version = "0.23.23"
 
 [dependencies.url]
 version = "2.5.4"
