@@ -67,6 +67,10 @@ features = ["test"]
 
 [dependencies.rustls]
 version = "0.23.23"
+default-features = false
+features = [
+    "ring",
+]
 
 [dependencies.url]
 version = "2.5.4"
