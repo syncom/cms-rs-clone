@@ -33,7 +33,7 @@ resolver = "2"
 version = "0.7"
 
 [dependencies.bytes]
-version = "1.0"
+version = "1.11"
 
 [dependencies.chrono]
 version = "0.4.40"
